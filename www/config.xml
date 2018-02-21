@@ -8,7 +8,7 @@
 	<icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
-<preference name="phonegap-version" value="cli-6.5.0" />
+<preference name="phonegap-version" value="cli-6.2.0" />
 
 	<preference name="permissions" value="none"/>
 	<preference name="android-targetSdkVersion" value="21" />
@@ -20,7 +20,7 @@
 
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="14" />
-	<plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="2.0.0" />
+	<plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="1.8.0" />
 
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<access origin="*" />
