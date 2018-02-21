@@ -17,7 +17,7 @@
 	<preference name="fullscreen" value="false" />
 
 	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="21" />
+	<preference name="android-minSdkVersion" value="14" />
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<access origin="*" />
 
