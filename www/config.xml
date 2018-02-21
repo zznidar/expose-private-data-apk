@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="graphical-glitches.bugreport" version="1.0.0.0apk5a">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="graphical-glitches.bugreport" version="1.0.0.0apk6">
 
 	<name>Expose recently rendered data</name>
 	<description>Make use of graphical glitches to exploit sensitive data from other tabs and apps. Works in browsers based on Chromium.</description>
@@ -17,11 +17,13 @@
 	<preference name="fullscreen" value="false" />
 
 	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="21" />
+	<preference name="android-minSdkVersion" value="14" />
+	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
+
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<access origin="*" />
 
-	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.8.0" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
