@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header('Content-Disposition: Attachment;filename=image.png');
 header('Content-type: image/png');
 
-$a = 0; // initialize a variable to be added to filename to prevent override
+$a = -1; // initialize a variable to be added to filename to prevent override
 
 foreach($_POST as $key => $value) {
 	$pic = $value;
