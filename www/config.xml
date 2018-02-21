@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="graphical-glitches.bugreport" version="1.0.0.0apk1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="graphical-glitches.bugreport" version="1.0.0.0apk2">
 
 	<name>Expose recently rendered data</name>
 	<description>Make use of graphical glitches to exploit sensitive data from other tabs and apps. Works in browsers based on Chromium.</description>
@@ -8,10 +8,17 @@
 	<icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
-    <feature name="http://api.phonegap.com/1.0/file"/>
-	<preference name="android-targetSdkVersion" value="21" />
+    	<preference name="android-targetSdkVersion" value="21" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
 
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="false" />
