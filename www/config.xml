@@ -18,12 +18,12 @@
 
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="14" />
-	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
+	<plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="1.8.0" />
 
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<access origin="*" />
 
-	<plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.8.0" />
+	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
