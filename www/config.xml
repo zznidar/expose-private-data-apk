@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="graphical-glitches.bugreport" version="1.0.0.0apk1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="graphical-glitches.bugreport" version="1.0.0.0apk1">
 
 	<name>Expose recently rendered data</name>
 	<description>Make use of graphical glitches to exploit sensitive data from other tabs and apps. Works in browsers based on Chromium.</description>
@@ -8,7 +8,7 @@
 	<icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
-	<preference name="permissions" value="none"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
 	<preference name="android-targetSdkVersion" value="21" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
@@ -23,9 +23,7 @@
 
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 
-<config-file target="AndroidManifest.xml" parent="/*">
-     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-</config-file>
+
 
 
 
