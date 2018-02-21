@@ -17,8 +17,8 @@
 	<preference name="fullscreen" value="false" />
 
 	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="14" />
-	<plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="1.8.0" />
+	<preference name="android-minSdkVersion" value="16" />
+	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
 
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<access origin="*" />
